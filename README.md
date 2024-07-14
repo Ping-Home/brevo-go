@@ -1,5 +1,12 @@
 # Brevo's API v3 Go Library
 
+This is temporary fork because the main repo is not working. Error:
+```shell
+github.com/getbrevo/brevo-go/lib: github.com/getbrevo/brevo-go@v1.1.0: parsing go.mod:
+module declares its path as: lib
+but was required as: github.com/getbrevo/brevo-go
+```
+
 Brevo's API exposes the entire Brevo features via a standardized programmatic interface. Please refer to the full [documentation](https://developers.brevo.com) to learn more.
 
 This is the wrapper for the API. It implements all the features of the API v3.
@@ -15,7 +22,7 @@ For more information, please visit [https://account.brevo.com/support](https://a
 ## Installation & Usage
 Install the package to your GoLang project.
 ```golang
-go get github.com/getbrevo/brevo-go
+go get github.com/Ping-Home/brevo-go
 ```
 
 ## Getting Started
