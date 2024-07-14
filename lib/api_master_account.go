@@ -13,7 +13,6 @@ package lib
 import (
 	"context"
 	"fmt"
-	"github.com/antihax/optional"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -2287,13 +2286,6 @@ MasterAccountApiService Get user activity logs
 
 @return GetAccountActivity
 */
-
-type GetAccountActivityOpts struct {
-	StartDate optional.String
-	EndDate   optional.String
-	Limit     optional.Int64
-	Offset    optional.Int64
-}
 
 func (a *MasterAccountApiService) GetAccountActivity(ctx context.Context, localVarOptionals *GetAccountActivityOpts) (GetAccountActivity, *http.Response, error) {
 	var (
