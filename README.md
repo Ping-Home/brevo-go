@@ -33,7 +33,7 @@ package main
 import (
 	"fmt"
 	"context"
-    brevo "github.com/getbrevo/brevo-go/lib"
+	brevo "github.com/Ping-Home/brevo-go/lib"
 )
 
 func main() {
